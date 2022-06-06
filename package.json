@@ -1,0 +1,31 @@
+{
+    "name": "revin-extension",
+    "version": "1.0.0",
+    "description": "revin-extension-using-typescript-react",
+    "main": "index.js",
+    "author": "Revin",
+    "license": "MIT",
+    "scripts": {
+        "start": "webpack --watch --progress --config webpack.dev.js",
+        "build": "webpack --progress --config webpack.prod.js"
+    },
+    "dependencies": {
+        "@types/typescript": "^2.0.0",
+        "react": "^18.1.0"
+    },
+    "devDependencies": {
+        "@types/chrome": "^0.0.188",
+        "@types/react": "^18.0.12",
+        "@types/react-dom": "^18.0.5",
+        "clean-webpack-plugin": "^4.0.0",
+        "copy-webpack-plugin": "^11.0.0",
+        "css-loader": "^6.7.1",
+        "html-webpack-plugin": "^5.5.0",
+        "react-dom": "^18.1.0",
+        "style-loader": "^3.3.1",
+        "ts-loader": "^9.3.0",
+        "webpack": "^5.73.0",
+        "webpack-cli": "^4.9.2",
+        "webpack-merge": "^5.8.0"
+    }
+}
